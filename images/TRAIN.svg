@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9540.034" height="661.99" viewBox="0 0 9540.034 661.99">
+  <g id="TRAIN" transform="translate(-35.27 -420.492)">
+    <path id="Tracé_12" data-name="Tracé 12" d="M0,0H6955.028V314.528H0Z" transform="translate(1327.972 422)" fill="#4c6192" stroke="#000" stroke-width="1"/>
+    <g id="Rectangle_14" data-name="Rectangle 14" transform="translate(1328 737)" fill="#aeaeae" stroke="#707070" stroke-width="1">
+      <rect width="6955" height="345" stroke="none"/>
+      <rect x="0.5" y="0.5" width="6954" height="344" fill="none"/>
+    </g>
+    <g id="avant" style="isolation: isolate">
+      <path id="Tracé_13" data-name="Tracé 13" d="M4134.666,768.667C4274.583,540.446,4790.157,453,4790.157,453h4.144l164.505-.008v659.037H4793.622" transform="translate(-3631 -32)" fill="#4c6192" stroke="#000" stroke-width="1"/>
+      <path id="Tracé_15" data-name="Tracé 15" d="M3880.666,690.568s-627.136,344.414-429.306,344.414H4542.184Z" transform="translate(-3377 46)" fill="#39435a" stroke="#707070" stroke-width="1"/>
+      <path id="Tracé_16" data-name="Tracé 16" d="M571.648,657.695S671.441,775,900.16,775c-5.967-95,0-140,0-140S779.4,623.5,732.66,554.5C636.327,596.667,571.648,657.695,571.648,657.695Z" transform="translate(1.84)" fill="#fff" stroke="#000" stroke-width="1"/>
+      <path id="Tracé_17" data-name="Tracé 17" d="M3371.743,1108.425c.338-2.868,925.792-92.328,1054.829-206.812s232.981-128.8,232.981-128.8v343.454H3385.326l-7.161-2.449C3378.334,1113.823,3371.4,1111.292,3371.743,1108.425Z" transform="translate(-3332 -36.183)" fill="#aeaeae" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="porte-Bas-1" transform="translate(177)">
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(1408 782)" fill="#c8c8c8" stroke="#000" stroke-width="1">
+        <rect width="437" height="252" rx="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="436" height="251" rx="24.5" fill="none"/>
+      </g>
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(1516.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M20,0h91a0,0,0,0,1,0,0V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" stroke="none"/>
+        <path d="M20,.5h90a.5.5,0,0,1,.5.5V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V20A19.5,19.5,0,0,1,20,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(1626.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M0,0H91a20,20,0,0,1,20,20V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H91A19.5,19.5,0,0,1,110.5,20V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(1608 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+      <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(1634.1 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+    </g>
+    <g id="porte-Bas-2" transform="translate(2178)">
+      <g id="Rectangle_7-2" data-name="Rectangle 7" transform="translate(1408 782)" fill="#c8c8c8" stroke="#000" stroke-width="1">
+        <rect width="437" height="252" rx="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="436" height="251" rx="24.5" fill="none"/>
+      </g>
+      <g id="Rectangle_8-2" data-name="Rectangle 8" transform="translate(1516.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M20,0h91a0,0,0,0,1,0,0V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" stroke="none"/>
+        <path d="M20,.5h90a.5.5,0,0,1,.5.5V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V20A19.5,19.5,0,0,1,20,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_12-2" data-name="Rectangle 12" transform="translate(1626.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M0,0H91a20,20,0,0,1,20,20V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H91A19.5,19.5,0,0,1,110.5,20V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_11-2" data-name="Rectangle 11" transform="translate(1608 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+      <g id="Rectangle_13-2" data-name="Rectangle 13" transform="translate(1634.1 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+    </g>
+    <g id="porte-Bas-3" transform="translate(4179)">
+      <g id="Rectangle_7-3" data-name="Rectangle 7" transform="translate(1408 782)" fill="#c8c8c8" stroke="#000" stroke-width="1">
+        <rect width="437" height="252" rx="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="436" height="251" rx="24.5" fill="none"/>
+      </g>
+      <g id="Rectangle_8-3" data-name="Rectangle 8" transform="translate(1516.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M20,0h91a0,0,0,0,1,0,0V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" stroke="none"/>
+        <path d="M20,.5h90a.5.5,0,0,1,.5.5V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V20A19.5,19.5,0,0,1,20,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_12-3" data-name="Rectangle 12" transform="translate(1626.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M0,0H91a20,20,0,0,1,20,20V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H91A19.5,19.5,0,0,1,110.5,20V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_11-3" data-name="Rectangle 11" transform="translate(1608 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+      <g id="Rectangle_13-3" data-name="Rectangle 13" transform="translate(1634.1 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+    </g>
+    <g id="fennetre-Haut-1" transform="translate(2338 506)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1440" height="147" rx="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1439" height="146" rx="24.5" fill="none"/>
+    </g>
+    <g id="fennetre-Haut-2" transform="translate(6338 506)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1440" height="147" rx="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1439" height="146" rx="24.5" fill="none"/>
+    </g>
+    <g id="fennetre-Haut-3" transform="translate(4338 506)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1440" height="147" rx="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1439" height="146" rx="24.5" fill="none"/>
+    </g>
+    <g id="fennetre-Bas-1" transform="translate(2084 910)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1440" height="147" rx="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1439" height="146" rx="24.5" fill="none"/>
+    </g>
+    <g id="fennetre-Bas-3" transform="translate(4085 910)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1440" height="147" rx="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1439" height="146" rx="24.5" fill="none"/>
+    </g>
+    <g id="fennetre-Bas-4" transform="translate(6086 910)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1440" height="147" rx="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1439" height="146" rx="24.5" fill="none"/>
+    </g>
+    <g id="arrière" transform="translate(8282.769 421.992)" style="isolation: isolate">
+      <path id="Tracé_13-2" data-name="Tracé 13" d="M4958.806,768.667C4818.889,540.446,4303.315,453,4303.315,453h-4.144l-164.505-.008v659.037H4299.85" transform="translate(-4134.666 -452.992)" fill="#4c6192" stroke="#000" stroke-width="1"/>
+      <path id="Tracé_15-2" data-name="Tracé 15" d="M4074.287,690.568s627.136,344.414,429.306,344.414H3412.769Z" transform="translate(-3250.147 -374.992)" fill="#39435a" stroke="#707070" stroke-width="1"/>
+      <path id="Tracé_16-2" data-name="Tracé 16" d="M900.16,657.695S800.367,775,571.648,775c5.967-95,0-140,0-140s120.762-11.5,167.5-80.5C835.482,596.667,900.16,657.695,900.16,657.695Z" transform="translate(-145.843 -420.992)" fill="#fff" stroke="#000" stroke-width="1"/>
+      <path id="Tracé_17-2" data-name="Tracé 17" d="M4659.541,1108.425c-.338-2.868-925.792-92.328-1054.829-206.812s-232.981-128.8-232.981-128.8v343.454H4645.957l7.162-2.449C4652.949,1113.823,4659.878,1111.292,4659.541,1108.425Z" transform="translate(-3371.478 -457.175)" fill="#aeaeae" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="porte-Bas-4" transform="translate(6180)">
+      <g id="Rectangle_7-4" data-name="Rectangle 7" transform="translate(1408 782)" fill="#c8c8c8" stroke="#000" stroke-width="1">
+        <rect width="437" height="252" rx="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="436" height="251" rx="24.5" fill="none"/>
+      </g>
+      <g id="Rectangle_8-4" data-name="Rectangle 8" transform="translate(1516.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M20,0h91a0,0,0,0,1,0,0V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" stroke="none"/>
+        <path d="M20,.5h90a.5.5,0,0,1,.5.5V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V20A19.5,19.5,0,0,1,20,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_12-4" data-name="Rectangle 12" transform="translate(1626.05 805)" fill="#b9b9b9" stroke="#000" stroke-width="1">
+        <path d="M0,0H91a20,20,0,0,1,20,20V206a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H91A19.5,19.5,0,0,1,110.5,20V205a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_11-4" data-name="Rectangle 11" transform="translate(1608 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+      <g id="Rectangle_13-4" data-name="Rectangle 13" transform="translate(1634.1 898)" fill="#4c6192" stroke="#000" stroke-width="1">
+        <rect width="11" height="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="25" fill="none"/>
+      </g>
+    </g>
+    <line id="Ligne_1" data-name="Ligne 1" x2="257" transform="translate(1328.5 910.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Ligne_2" data-name="Ligne 2" x2="257" transform="translate(8025.5 910.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>

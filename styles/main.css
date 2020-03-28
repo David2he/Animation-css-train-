@@ -1,0 +1,403 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 450vw;
+  height: 100vh;
+  background-color: darkslategray;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sign {
+  position: fixed;
+  top: 0%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+}
+.sign .standSign {
+  width: 10vh;
+  height: 10vh;
+  background-color: transparent;
+  border-left: solid 1.5vh black;
+  border-right: solid 1.5vh black;
+}
+.sign .signInfo {
+  width: 25vh;
+  height: 15vh;
+  margin: 0 auto;
+  background-color: black;
+  border: solid 2vh grey;
+}
+.sign .signInfo h1 {
+  font-family: "Russo One", sans-serif;
+  color: lime;
+  font-size: 3vh;
+  text-align: center;
+}
+.sign .signInfo .signInfoTxtContainer {
+  width: 80%;
+  margin: 0 auto;
+  height: 60%;
+  border: solid 0.6vh lime;
+  color: lime;
+  text-align: center;
+  font-size: 2vh;
+  line-height: 3vh;
+  top: -3%;
+}
+
+.directionScreen {
+  position: fixed;
+  width: 0%;
+  height: 100%;
+  z-index: 8;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 99;
+}
+.directionScreen .directionScreenContent {
+  width: 80%;
+  height: 80%;
+  border: solid 5vh grey;
+  background-color: black;
+  font-size: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.directionScreen .directionScreenContent a {
+  font-family: "Russo One", sans-serif;
+  color: lime;
+}
+.directionScreen .directionScreenContent .linkDestination {
+  width: 100%;
+  height: 20%;
+  border-top: solid 0.6vh lime;
+  border-bottom: solid 0.6vh lime;
+  text-align: center;
+  line-height: 13vh;
+}
+.directionScreen .directionScreenContent .linkDestination:hover {
+  background-color: #12b912;
+}
+.directionScreen .directionScreenContent .linkDestination:hover a {
+  color: black;
+}
+.directionScreen .directionScreenContent .linkToCloseDirectionScreenContent {
+  position: absolute;
+  top: 11.5%;
+  right: 15%;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  background-color: lime;
+}
+.directionScreen .directionScreenContent .linkToCloseDirectionScreenContent .crossDiv {
+  position: absolute;
+  width: 6vh;
+  height: 1vh;
+  background-color: black;
+  top: 45%;
+  left: 9%;
+}
+.directionScreen .directionScreenContent .linkToCloseDirectionScreenContent .crossDiv1 {
+  transform: rotate(50deg);
+}
+.directionScreen .directionScreenContent .linkToCloseDirectionScreenContent .crossDiv2 {
+  transform: rotate(130deg);
+}
+
+.directionScreenIsActivated {
+  width: 80%;
+}
+
+.train {
+  width: 100%;
+  height: 60vh;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  transform: translate(-500vw, 1vw);
+  animation: trainBehavior 1.8s infinite linear;
+}
+
+.trainContainer {
+  width: 70%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.trainContainer .upTrain {
+  width: 100%;
+  height: 47.7%;
+  background-color: #4C6192;
+  border-bottom: solid 0.2vh #353535;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trainContainer .downTrain {
+  width: 100%;
+  height: 52.3%;
+  background-color: #AEAEAE;
+  border-top: 0.05vh solid #353535;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.door {
+  width: 7%;
+  height: 80%;
+  border-radius: 12%;
+  background-color: #C8C8C8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.door .inDoorPart1 {
+  width: 40%;
+  height: 80%;
+  background-color: #acacac;
+  border-radius: 12% 0 0 0;
+  border: solid 0.1vh #575757;
+  z-index: 2;
+}
+.door .inDoorPart2 {
+  width: 40%;
+  height: 80%;
+  background-color: #acacac;
+  border-radius: 0 12% 0 0;
+  border: solid 0.1vh #575757;
+  z-index: 2;
+}
+.door .behindDoor {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: #363636;
+  border-radius: 12px;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5vh;
+}
+
+.windowUpstair {
+  margin: 0 17vw;
+}
+
+.window {
+  width: 20%;
+  height: 50%;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 2vw;
+}
+
+.cls-1 {
+  isolation: isolate;
+}
+
+.cls-2 {
+  fill: #4c6192;
+}
+
+.cls-2, .cls-4, .cls-5 {
+  stroke: #000;
+}
+
+.cls-3 {
+  fill: #39435a;
+  stroke: #707070;
+}
+
+.cls-4 {
+  fill: #fff;
+}
+
+.cls-5 {
+  fill: #aeaeae;
+}
+
+.backGroundScene {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+}
+.backGroundScene .trainBG {
+  width: 400vh;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  transform: translate(228vw, 1vw);
+  transform: translate(150vw, 1vw);
+  animation: trainBehaviorBG 1s infinite linear 3s;
+  will-change: transform;
+}
+.backGroundScene .trainBG .trainContainerBG {
+  width: 118%;
+  height: 30vh;
+}
+.backGroundScene .dockBG {
+  width: 450vw;
+  height: 14vh;
+  background-color: #6b6b6b;
+  transform: translateY(-17vh);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.backGroundScene .dockBG .dockLimitBG {
+  width: 100%;
+  height: 25%;
+  background-color: white;
+}
+
+.FrontScene {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  z-index: 3;
+  transform: translate(-770vw, 7.5vw);
+  will-change: transform;
+}
+.FrontScene .trainFront {
+  width: 1156vh;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+}
+.FrontScene .trainFront .trainContainerFront {
+  width: 200%;
+  height: 80vh;
+}
+.FrontScene .inDoor1IsAnimated {
+  animation: 2s inDoor1Animated ease 1 7s forwards;
+}
+.FrontScene .inDoor2IsAnimated {
+  animation: 2s inDoor2Animated ease 1 7s forwards;
+}
+
+.transitionFront {
+  animation: transitionTrainFront 8s ease-out forwards;
+}
+
+.dock {
+  width: 450vw;
+  height: 25%;
+  position: absolute;
+  bottom: -5%;
+  background-color: #6b6b6b;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.dock .dockLimit {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+}
+.dock .foodsSeller {
+  width: 38vh;
+  height: 50vh;
+  background-color: #363636;
+  position: absolute;
+  z-index: 3;
+  bottom: -1%;
+  left: 20%;
+  box-shadow: 0 0 2vw 20px rgba(0, 247, 255, 0.2);
+}
+
+@keyframes trainBehavior {
+  100% {
+    transform: translateX(500vw);
+  }
+}
+@keyframes trainBehaviorBG {
+  100% {
+    transform: translateX(-118vw);
+  }
+}
+@keyframes transitionTrainFront {
+  70% {
+    transform: translateX(585vw);
+  }
+  100% {
+    transform: translateX(584.2vw);
+  }
+}
+@keyframes inDoor1Animated {
+  100% {
+    transform: translateX(-180px);
+  }
+}
+@keyframes inDoor2Animated {
+  100% {
+    transform: translateX(180px);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
